@@ -151,7 +151,6 @@ export default {
     },
     mounted() {
         this.showChat = true;
-        this.push("Добро пожаловать на Горенск РП | Сервер №1");
     },
     beforeUnmount() {
         document.removeEventListener('keydown', this.addKeyListener);
